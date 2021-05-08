@@ -1,0 +1,155 @@
+:root {
+    color: #212529;
+    color:#707070;
+    --light: #F8F9FA;
+    --white: #fff;
+    --success: #28a745;
+}
+
+/*Fuente de todo el body*/
+body * {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Color de hamburguesa*/
+button i {
+    color: #FFFFFF80;
+}
+
+/*Color del borde de la hamburguesa*/
+.custom-toggler.navbar-toggler {
+    border-color: #FFFFFF80;
+}
+
+/*Navbar inline en Iphone 5 320px*/
+@media screen and (min-width: 320px) {
+    .navbar>.container {
+        flex-wrap: nowrap;
+    }
+}
+
+/*Tamaño del lógo de cuppon en Iphone 5 320px*/
+@media (min-width: 320px) {
+    nav img {
+        width: 80%;
+    }
+}
+
+/*Tamaño del lógo de cuppon en otras resoluciones*/
+@media (min-width: 321px) {
+    nav img {
+        width: 35%;
+    }
+}
+
+/*Color y peso de los textos en cards*/
+h5, h4, p, i {
+    color: #707070;
+    font-weight: 300;
+}
+
+/*Tamaño de los títulos en las cards*/
+.card h4 {
+    font-size:x-large;
+}
+
+/*Header en Iphone 5 320px*/
+@media screen and (min-width: 320px) {
+    h1.display-1 {
+        font-size: 250%;
+        font-weight: 700;
+    }
+}
+
+/* Estilo Precio 1*/
+.price1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #707070;
+}
+
+/* Estilo Precio2 */
+.price2 {
+    font-family: 'Roboto', sans-serif;
+    color: var(--success);
+    font-size: large;
+}
+
+/* .card-body {
+    flex: 1 1 auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+} */
+
+/*Estilos del form*/
+
+/*Tamaño del form hasta 320px*/
+
+@media (max-width: 600px) {
+    .form-size {
+        padding: 10% 10%;
+    }
+}
+
+@media (min-width: 601px) {
+    .form-size {
+        padding: 20% 20%;
+    }
+}
+
+@media (min-width: 768px) {
+    .form-size {
+        padding: 30% 30%;
+    }
+}
+
+@media (min-width: 992px) {
+    .form-size {
+        padding: 35% 35%;
+    }
+}
+
+/*Tamaño del título del Form*/
+@media (max-width: 600px) {
+    form h4 {
+        font-weight:400;
+        font-size:larger;
+    }
+}
+
+@media (min-width: 601px) {
+    form h4 {
+        font-weight:500;
+        font-size:x-large;
+    }
+}
+
+/*Estilos del footer*/
+
+/*Tamaño del logo footer mobile*/
+@media (max-width: 600px) {
+    footer img {
+        width: 28%;
+    }
+}
+
+/*Tamaño del logo footer*/
+@media (min-width: 601px) {
+    footer img {
+        width: 28%;
+    }
+}
+
+@media (min-width: 768px) {
+    footer img {
+        width: 15%;
+    }
+}
+
+/* Tamaño texto Footer */
+@media (min-width: 600px) {
+    footer p {
+        font-size:large;
+    }
+}
